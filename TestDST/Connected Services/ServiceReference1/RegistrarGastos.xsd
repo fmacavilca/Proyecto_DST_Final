@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/RegistrarGastos.Dominio" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/RegistrarGastos.Dominio" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="Inmuebles">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="codigo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="direccion" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="gAdicionales" type="xs:decimal" />
+      <xs:element minOccurs="0" name="gAlquiler" type="xs:decimal" />
+      <xs:element minOccurs="0" name="gMantenimiento" type="xs:decimal" />
+      <xs:element minOccurs="0" name="idInmueble" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Inmuebles" nillable="true" type="tns:Inmuebles" />
+</xs:schema>

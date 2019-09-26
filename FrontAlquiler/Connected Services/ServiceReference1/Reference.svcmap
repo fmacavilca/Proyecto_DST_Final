@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="c3d52139-641a-411a-b6a5-3559fd248c20" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:64336/RegistrarGastos.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="RegistrarGastos.wsdl" MetadataType="Wsdl" ID="95e52f49-d4a7-4b36-974a-3d1689034b50" SourceId="1" SourceUrl="http://localhost:64336/RegistrarGastos.svc?wsdl" />
+    <MetadataFile FileName="RegistrarGastos.xsd" MetadataType="Schema" ID="58e00d9b-80b6-471f-8e72-9f3f68e97851" SourceId="1" SourceUrl="http://localhost:64336/RegistrarGastos.svc?xsd=xsd2" />
+    <MetadataFile FileName="RegistrarGastos.disco" MetadataType="Disco" ID="34b71799-8ccd-4c62-be79-204b23e5f9cc" SourceId="1" SourceUrl="http://localhost:64336/RegistrarGastos.svc?disco" />
+    <MetadataFile FileName="RegistrarGastos1.xsd" MetadataType="Schema" ID="06d46d59-a84b-473c-be26-4b2375cba363" SourceId="1" SourceUrl="http://localhost:64336/RegistrarGastos.svc?xsd=xsd3" />
+    <MetadataFile FileName="RegistrarGastos2.xsd" MetadataType="Schema" ID="4fce1ef8-96f7-44a4-b39f-aba079f26788" SourceId="1" SourceUrl="http://localhost:64336/RegistrarGastos.svc?xsd=xsd1" />
+    <MetadataFile FileName="RegistrarGastos3.xsd" MetadataType="Schema" ID="59bf37cf-e606-4dea-9991-4b2f8089db44" SourceId="1" SourceUrl="http://localhost:64336/RegistrarGastos.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
